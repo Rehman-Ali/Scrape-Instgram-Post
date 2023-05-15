@@ -1,0 +1,24 @@
+{
+  "name": "repconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "instagram-private-api": "^1.45.3",
+    "instagram-scraping": "^1.0.17",
+    "puppeteer": "^20.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
