@@ -22,6 +22,6 @@ app.use(bodyParser.json());
 app.use("/", require("./routes/index"));
 
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log(`App is listening at  3000`);
 });
